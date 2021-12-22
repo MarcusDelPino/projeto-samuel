@@ -1,0 +1,93 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif; 
+    --font2: 'Passion One', cursive; 
+    --font3: 'Vujahday Script', cursive;
+    --color1: #47A6FF;
+    --color2: #3274B3;
+    --color3: #6F98BF;
+    --color4: #245380;
+}
+body {
+    background-color: whitesmoke;
+    font-family: var(--font1);
+}
+header {
+    background-color: #94CBFF;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.233);
+}
+header > h1 {
+    color: #232324;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.254);
+    font-size: 5vw;
+    text-align: center;
+    padding: 25px 0px;
+    font-family: var(--font2);
+}
+header > p#topo {
+    text-align: center;
+    padding-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 1em;
+}
+a:hover {
+    color: #94CBFF;
+}
+section {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+section.normal {
+    background-color: whitesmoke;
+}
+section.imagem > p{
+    display: inline-block;
+    background-color:rgba(34, 34, 34, 0.796);
+    padding: 4vw;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.083);;
+}
+section#imgum {
+    background-image: url('imagens/xmas1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    box-shadow: inset 1px 6px 5px rgba(0, 0, 0, 0.303);
+}
+section#imgdois {
+    background-image: url('imagens/xmas2.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    box-shadow: inset 1px 6px 5px rgba(0, 0, 0, 0.303);
+}
+p.p-corpo {
+    margin-left: 5vw;
+    font-size: 2.7vw;
+    font-family: var(--font3);
+    font-weight: normal;
+    
+}
+footer {
+    background-color: var(--color1);
+    margin-top: 3vh;
+    padding: 3vh;
+    text-align: center;
+    box-shadow: 0px -2px 10px 3px rgba(0, 0, 0, 0.241);
+}
