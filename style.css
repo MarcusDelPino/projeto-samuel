@@ -67,6 +67,7 @@ section#imgum {
     background-attachment: fixed;
     color: white;
     box-shadow: inset 1px 6px 5px rgba(0, 0, 0, 0.303);
+    transform: scale(1.02);
 }
 section#imgdois {
     background-image: url('imagens/xmas2.jpg');
@@ -76,6 +77,7 @@ section#imgdois {
     background-attachment: fixed;
     color: white;
     box-shadow: inset 1px 6px 5px rgba(0, 0, 0, 0.303);
+    transform: scale(1.02);
 }
 p.p-corpo {
     margin-left: 5vw;
